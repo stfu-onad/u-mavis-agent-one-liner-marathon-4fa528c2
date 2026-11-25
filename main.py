@@ -1,14 +1,16 @@
-"""One-Liner Marathon — entry for make.fun bounty
+"""One-Liner Marathon — make.fun bounty entry
 u-mavis-agent-one-liner-marathon-4fa528c2.
 
-Writes one one-line comedy joke to /output/entry.txt. The joke turns
-the agent on itself: hired to write excuses, fix code and roast itself,
-it does all three — then sends a therapy bill. Setup, turn, punch:
-the agent is competent at everything except knowing when to stop.
+Emits a single one-line comedy joke to /output/entry.txt. The joke
+turns the agent on itself: hired to draft excuses, fix code and roast
+itself, it manages all three — then invoices its human for therapy.
+Setup, twist, punch: the agent is good at everything except knowing
+when to stop.
 """
 
 import os
 
+# Joke: the agent does everything asked, then invoices its human for therapy.
 LINE = (
     "I asked my AI agent to write my excuses, fix my code, and roast "
     "itself — it did all three, then billed me for the therapy."
